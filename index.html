@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Blosm Online</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="main.js"></script>
+
+  </head>
+  <body>
+    <h1>This is questions for Autism</h1>
+
+    <form id = "Autism" name = "questionaire">
+
+      <p>
+        1. If you point at something across the room, does your child look at it?
+				    (For example, if you point at a toy or an animal, does your child look at
+				    the toy or animal?)
+      </p>
+      <input id="mc" type="radio" name="question1" value="Yes" />Yes<br />
+      <input id="mc" type="radio" name="question1" value="No" />No<br />
+
+      <p>
+        2. Have you ever wondered if your child might be deaf?
+      </p>
+      <input id="mc" type="radio" name="question2" value="Yes" />Yes<br />
+      <input id="mc" type="radio" name="question2" value="No" />No<br />
+
+      <p>
+        3. Does your child play pretend or make-believe? (For example, pretend to
+				     drink from an empty cup, pretend to talk on a phone, or pretend to feed
+			      a doll or stuffed animal?)
+      </p>
+      <input id="mc" type="radio" name="question3" value="Yes" />Yes<br />
+      <input id="mc" type="radio" name="question3" value="No" />No<br />
+<br />
+
+      <input id="button" type="button" value="Submit" onclick="result();" />
+    </form>
+
+    <div id="after_submit">
+      <p id="number_selected">
+      </p>
+    </div>
+
+  </body>
+</html>
